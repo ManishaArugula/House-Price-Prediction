@@ -57,13 +57,16 @@ This project focuses on **Exploratory Data Analysis (EDA)** and **Feature Engine
   * **Utility & amenities:** `CentralAir`, `Fireplaces`, `GarageType`, `GarageYrBlt`
 * This reduced dimensionality while keeping interpretability, improving the dataset’s readiness for machine learning.
 
+### 6. 📊 Modeling & Prediction
+After preparing the dataset and selecting key features using Lasso Regression, a Linear Regression model was implemented to predict house prices. The model achieved R² = 90%, a mean absolute error (MAE) of 10%, and an RMSE of 13%, demonstrating strong predictive performance using the most relevant features.
+
 ## 📈 Outcome
 
 * Generated a **clean, analysis-ready dataset** that retains valuable signals, even from missingness.
 * Extracted key business insights about which property features drive higher house prices.
 * Reduced dimensionality from 81 → **17 key features**, focusing the predictive model on the most relevant variables.
 * Established a strong foundation for predictive modeling with improved **data quality, interpretability, and feature relevance**.
+* Utilised a simple Linear Regression Model to estimate house price prediciton resulting an R-square value of 90%.  
 
 ---
 
-✨ *This repository highlights practical data cleaning, visualization, feature engineering, and feature selection workflows — demonstrating applied EDA skills for predictive modeling.*
